@@ -1,0 +1,14 @@
+
+ 1、二进制与文本的区别：
+ 	文件以二进制的形式存在于内存
+ 	字节都可以转换成字符：文本文件
+ 	文本以外的文件称为：二进制文件
+ 	
+ 2、
+ FileInputStream 输入字节数组时不需要显示调用flush和close方法，会自动调用flush方法
+ FileReader 输入字符串时需要显示调用close方法，来刷新缓存区
+ 	
+3、PipeInput/OutputStream 进程间的通信
+   PipedReader PipedWriter
+   
+ 
